@@ -1,3 +1,7 @@
+; archivo: Calculadora-rpn.asm
+; descripción: calculadora RPN que lee las operaciones desde un archivo txt
+
+
 section .data
     stack db 20        ; tamaño de la pila
     buffer db 20       ; tamaño del buffer
